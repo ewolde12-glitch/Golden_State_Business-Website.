@@ -46,7 +46,7 @@ button:focus-visible, a:focus-visible, textarea:focus-visible {
   backdrop-filter: blur(14px);
 }
 .brand { display: inline-flex; align-items: center; gap: 12px; font-size: 1rem; font-weight: 900; letter-spacing: .12em; white-space: nowrap; }
-.brand strong { color: var(--gold); }
+.brand strong { width: 44px; height: 44px; border-radius: 4px; object-fit: contain; }
 .brand-mark, .closing-mark {
   display: grid;
   place-items: center;
