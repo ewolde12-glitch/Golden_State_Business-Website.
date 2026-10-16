@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the business behind game day and develop ideas to improve the sports fan experience.">
+  <title>Golden State | Beyond the Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Golden State home">
+      <span class="brand-mark" aria-hidden="true">GS</span>
+      <span>GOLDEN <strong>STATE</strong></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu"
+      aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#experience">The Experience</a>
+      <a href="#business">Business Areas</a>
+      <a href="#challenge">The Challenge</a>
+    </nav>
+    <a class="header-cta" href="#challenge">Think Like a Pro <span aria-hidden="true">→</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="live-dot"></span> BEYOND THE GAME</p>
+        <h1>More Than a Game.<br><span>It's an Experience.</span></h1>
+        <p class="hero-copy">
+          The lights shine brightly. Thousands of fans fill the arena.
+          Music plays, people cheer for their favorite teams, and excitement fills the air.
+        </p>
+        <a class="button button-gold" href="#experience">Explore the Experience <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-caption">
+        <span class="caption-line"></span>
+        <span>GAME DAY IS JUST THE BEGINNING</span>
+      </div>
+    </section>
+
+    <section class="experience section-wrap" id="experience">
+      <div class="story-copy">
+        <p class="eyebrow eyebrow-blue">THE STORY BEHIND THE SHOW</p>
+        <h2>Behind Every Game<br>Is a Bigger Story.</h2>
+        <p>
+          Before the game even begins, something special is already happening.
+          Fans are buying food, meeting friends, taking pictures, visiting team
+          stores and enjoying the atmosphere. Staff members are working behind
+          the scenes to make sure everything runs smoothly.
+        </p>
+        <p>
+          From the outside, it looks like a basketball game. From a business
+          perspective, however, it is a complex operation involving many
+          different activities.
+        </p>
+        <div class="story-note">
+          <span class="note-icon" aria-hidden="true">✦</span>
+          <p><strong>Every detail matters.</strong> Great experiences happen when people, ideas, and systems work together.</p>
+        </div>
+      </div>
+
+      <div class="business-area" id="business">
+        <div class="section-heading">
+          <p class="eyebrow eyebrow-blue">THE BUSINESS OF GAME DAY</p>
+          <h2>Five Areas. One Big Experience.</h2>
+          <p>Choose an area to explore the question behind the business.</p>
+        </div>
+
+        <div class="business-grid">
+          <button class="business-card" data-area="customer" aria-pressed="false">
+            <span class="card-icon" aria-hidden="true">☺</span>
+            <h3>Customer Experience</h3>
+            <p>How can every visitor feel welcome and excited?</p>
+            <span class="card-link">Explore question <span aria-hidden="true">↗</span></span>
+          </button>
+          <button class="business-card" data-area="marketing" aria-pressed="false">
+            <span class="card-icon" aria-hidden="true">📣</span>
+            <h3>Marketing</h3>
+            <p>How can Golden State attract new fans and keep existing fans engaged?</p>
+            <span class="card-link">Explore question <span aria-hidden="true">↗</span></span>
+          </button>
+          <button class="business-card" data-area="technology" aria-pressed="false">
+            <span class="card-icon" aria-hidden="true">⌘</span>
+            <h3>Technology</h3>
+            <p>How can digital tools make attending games easier and more enjoyable?</p>
+            <span class="card-link">Explore question <span aria-hidden="true">↗</span></span>
+          </button>
+          <button class="business-card" data-area="operations" aria-pressed="false">
+            <span class="card-icon" aria-hidden="true">⚙</span>
+            <h3>Operations</h3>
+            <p>How can the organization manage crowds, services, staff and events efficiently?</p>
+            <span class="card-link">Explore question <span aria-hidden="true">↗</span></span>
+          </button>
+          <button class="business-card" data-area="growth" aria-pressed="false">
+            <span class="card-icon" aria-hidden="true">↗</span>
+            <h3>Business Growth</h3>
+            <p>How can Golden State create new opportunities and sustainable revenue?</p>
+            <span class="card-link">Explore question <span aria-hidden="true">↗</span></span>
+          </button>
+        </div>
+
+        <div class="area-detail" id="areaDetail" aria-live="polite">
+          <span class="detail-icon" aria-hidden="true">✦</span>
+          <div>
+            <h3 id="detailTitle">Think beyond the scoreboard</h3>
+            <p id="detailText">Select any business area above to see a question you could investigate.</p>
+          </div>
+        </div>
+        <p class="disclaimer">These are example business areas. The actual challenge will depend on the specific problem Golden State announces.</p>
+      </div>
+    </section>
+
+    <section class="challenge" id="challenge">
+      <img class="challenge-image" src="img/Food festival.jpg" alt="Golden State fans enjoying game-day food, friends, photos, team merchandise, and arena operations">
+      <div class="challenge-intro">
+        <p class="eyebrow">A NEW POINT OF VIEW</p>
+        <h2>Look at Sports From a <span>Different Perspective.</span></h2>
+        <p>
+          Imagine you're no longer just a fan watching a basketball game.
+          You're part of a team asked to think like a business professional.
+        </p>
+        <p>
+          Examine a problem, research customer needs, identify an opportunity,
+          and propose a solution that could work in the real world.
+        </p>
+        <div class="mini-stat"><span class="mini-stat-number">01</span><span>Observe. Ask. Create. Improve.</span></div>
+      </div>
+
+      <div class="challenge-panel">
+        <p class="eyebrow eyebrow-gold">HYPOTHETICAL CHALLENGE</p>
+        <h2>Help Younger Fans Feel More Connected.</h2>
+        <p>Imagine Golden State wants younger fans to feel more connected to its teams before, during and after games.</p>
+        <h3>How would you approach this problem?</h3>
+
+        <div class="question-list">
+          <button class="question-item" data-question="What do younger fans enjoy about live sporting events?">
+            <span>01</span><span>What do younger fans enjoy about live sporting events?</span><b>+</b>
+          </button>
+          <button class="question-item" data-question="What problems make it difficult for younger fans to attend games or participate?">
+            <span>02</span><span>What problems make it difficult for them to attend games or participate?</span><b>+</b>
+          </button>
+          <button class="question-item" data-question="How do younger fans use mobile apps, social media and digital services?">
+            <span>03</span><span>How do they use mobile apps, social media and digital services?</span><b>+</b>
+          </button>
+          <button class="question-item" data-question="What new experiences could make younger fans more engaged?">
+            <span>04</span><span>What new experiences could make them more engaged?</span><b>+</b>
+          </button>
+          <button class="question-item" data-question="How could Golden State measure whether your idea works?">
+            <span>05</span><span>How could Golden State measure whether your idea works?</span><b>+</b>
+          </button>
+        </div>
+
+        <div class="question-detail" id="questionDetail" aria-live="polite">
+          <strong>Your turn:</strong> Select a question above to start thinking about possible answers.
+        </div>
+        <a class="button button-gold" href="#idea-builder">Build Your Idea <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="idea-builder section-wrap" id="idea-builder">
+      <div class="section-heading">
+        <p class="eyebrow eyebrow-blue">YOUR TURN TO THINK</p>
+        <h2>Start Building a Business Idea.</h2>
+        <p>Use this simple planner to organize your first thoughts. This is a practice activity, not an official Golden State submission form.</p>
+      </div>
+
+      <form id="ideaForm" class="idea-form">
+        <label for="problem">1. What problem would you like to solve?</label>
+        <textarea id="problem" name="problem" rows="3" placeholder="Example: Younger fans need easier ways to discover activities on game day." required></textarea>
+
+        <label for="solution">2. What is your proposed solution?</label>
+        <textarea id="solution" name="solution" rows="3" placeholder="Describe your idea and how it could help." required></textarea>
+
+        <label for="measure">3. How would you measure success?</label>
+        <textarea id="measure" name="measure" rows="2" placeholder="Example: app engagement, fan feedback, participation, or repeat visits." required></textarea>
+
+        <button class="button button-gold" type="submit">Create My Idea Summary <span aria-hidden="true">→</span></button>
+      </form>
+
+      <div class="idea-output" id="ideaOutput" aria-live="polite" hidden>
+        <div class="output-top">
+          <h3>Your Business Idea Summary</h3>
+          <button type="button" class="text-button" id="copySummary">Copy summary</button>
+        </div>
+        <div id="summaryText"></div>
+        <p class="small-note">Your summary is created in this page only. Copy it if you want to save it elsewhere.</p>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-mark" aria-hidden="true">GS</div>
+      <div>
+        <p class="eyebrow eyebrow-gold">YOUR IDEAS MATTER</p>
+        <h2>Think. Create. Make an Impact.</h2>
+        <p>Your perspective could help shape better experiences for fans, teams and the sports business.</p>
+      </div>
+      <a class="button button-gold" href="#idea-builder">Start Exploring <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand brand-footer" href="#home"><span class="brand-mark">GS</span><span>GOLDEN <strong>STATE</strong></span></a>
+    <p>Student learning concept · Hypothetical example challenge</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
